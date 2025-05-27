@@ -96,7 +96,7 @@
       "manufacturer": "CoolTech",
       "installationDate": "2023-01-10",
       "currentTemperature": 22.5,
-      "setTemperature": 22,
+      "setTemperature": 16.5,
       "optimalTemperatureMin": 18,
       "optimalTemperatureMax": 25,
       "energyConsumption": {
@@ -132,7 +132,7 @@
       "manufacturer": "FrigoTech",
       "installationDate": "2023-02-15",
       "currentTemperature": -2.5,
-      "setTemperature": -5,
+      "setTemperature": -1,
       "optimalTemperatureMin": -5,
       "optimalTemperatureMax": 0,
       "energyConsumption": {
@@ -183,7 +183,7 @@
     {
       "id": "14",
       "equipmentId": 2,
-      "temperature": -3.0,
+      "temperature": -3,
       "timestamp": "2023-04-20T14:00:00",
       "status": "normal"
     },
@@ -246,7 +246,7 @@
     {
       "id": "14",
       "equipmentId": 2,
-      "temperature": -3.0,
+      "temperature": -3,
       "timestamp": "2023-04-20T14:00:00",
       "status": "normal"
     },
@@ -364,7 +364,7 @@
       "equipmentId": 2,
       "date": "2023-04-16",
       "averageTemperature": -3.2,
-      "minTemperature": -4.0,
+      "minTemperature": -4,
       "maxTemperature": -2.4
     },
     {
@@ -420,7 +420,7 @@
       "equipmentId": 2,
       "date": "2023-04-16",
       "averageTemperature": -3.2,
-      "minTemperature": -4.0,
+      "minTemperature": -4,
       "maxTemperature": -2.4
     },
     {
