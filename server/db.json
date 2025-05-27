@@ -147,108 +147,6 @@
         "monthlyFee": 350,
         "providerId": 3
       }
-    },
-    {
-      "name": "Freeeee",
-      "type": "freezer",
-      "serialNumber": "EXLRG",
-      "code": "2222929",
-      "model": "Endd",
-      "manufacturer": "d",
-      "technicalDetails": "NINGUNO",
-      "location": {
-        "name": "CASA",
-        "address": "SMP",
-        "coordinates": {
-          "lat": -12.046374,
-          "lng": -77.042793
-        }
-      },
-      "currentTemperature": 22,
-      "setTemperature": 23,
-      "optimalTemperatureMin": 18,
-      "optimalTemperatureMax": 25,
-      "energyConsumption": {
-        "current": 0,
-        "unit": "watts",
-        "average": 0
-      },
-      "notes": "NAADA",
-      "status": "active",
-      "isPoweredOn": true,
-      "installationDate": "2025-05-26",
-      "ownerId": 1,
-      "ownerType": "user",
-      "ownershipType": "owned",
-      "id": "FCQNyTu"
-    },
-    {
-      "name": "Alfredito",
-      "type": "freezer",
-      "serialNumber": "2323",
-      "code": "HH0020",
-      "model": "adadd",
-      "manufacturer": "ddd",
-      "technicalDetails": "",
-      "location": {
-        "name": "GATO",
-        "address": "AV PERU",
-        "coordinates": {
-          "lat": -12.046374,
-          "lng": -77.042793
-        }
-      },
-      "currentTemperature": 22,
-      "setTemperature": 22,
-      "optimalTemperatureMin": 18,
-      "optimalTemperatureMax": 25,
-      "energyConsumption": {
-        "current": 0,
-        "unit": "watts",
-        "average": 0
-      },
-      "notes": "",
-      "status": "active",
-      "isPoweredOn": true,
-      "installationDate": "2025-05-27",
-      "ownerId": 1,
-      "ownerType": "user",
-      "ownershipType": "owned",
-      "id": "CAlwSf_"
-    },
-    {
-      "name": "NEW",
-      "type": "freezer",
-      "serialNumber": "DD",
-      "code": "DDD333",
-      "model": "DDDDD",
-      "manufacturer": "D",
-      "technicalDetails": "",
-      "location": {
-        "name": "3",
-        "address": "R",
-        "coordinates": {
-          "lat": -12.046374,
-          "lng": -77.042793
-        }
-      },
-      "currentTemperature": 22,
-      "setTemperature": 22,
-      "optimalTemperatureMin": 18,
-      "optimalTemperatureMax": 25,
-      "energyConsumption": {
-        "current": 0,
-        "unit": "watts",
-        "average": 0
-      },
-      "notes": "",
-      "status": "active",
-      "isPoweredOn": true,
-      "installationDate": "2025-05-27",
-      "ownerId": 1,
-      "ownerType": "user",
-      "ownershipType": "owned",
-      "id": "DRQ1TL3"
     }
   ],
   "temperatureReadings": [
@@ -648,6 +546,26 @@
       "scheduledDate": "2023-04-18T08:00:00",
       "completionDate": null,
       "resolution": null
+    },
+    {
+      "orderNumber": "",
+      "description": "no",
+      "requestTime": null,
+      "status": "pending",
+      "priority": "normal",
+      "userId": null,
+      "companyId": null,
+      "equipmentId": "2",
+      "technicianId": null,
+      "serviceType": "repair",
+      "urgency": "normal",
+      "asap": true,
+      "timeSlot": "",
+      "serviceAddress": "",
+      "scheduledDate": null,
+      "completionDate": null,
+      "resolution": null,
+      "id": "YJNQ9_C"
     }
   ],
   "maintenance": [
