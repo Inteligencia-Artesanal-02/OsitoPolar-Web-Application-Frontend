@@ -74,16 +74,13 @@
   ],
   "equipment": [
     {
-      "id": "1",
       "name": "Industrial Freezer XK-400",
       "type": "freezer",
-      "cost": 5000,
-      "technicalDetails": "Minimum temperature -20°C, capacity 400L",
       "serialNumber": "XK400-12345",
       "code": "CONG-001",
-      "status": "active",
-      "isPoweredOn": true,
-      "notes": "Installed on 01/10/2023",
+      "model": "XK-400",
+      "manufacturer": "CoolTech",
+      "technicalDetails": "Minimum temperature -20°C, capacity 400L",
       "location": {
         "name": "Main warehouse",
         "address": "Av. Principal 123, Lima",
@@ -92,22 +89,23 @@
           "lng": -77.042793
         }
       },
-      "model": "XK-400",
-      "manufacturer": "CoolTech",
-      "installationDate": "2023-01-10",
       "currentTemperature": 22.5,
-      "setTemperature": 22,
-      "optimalTemperatureMin": 18,
-      "optimalTemperatureMax": 25,
+      "setTemperature": 26,
+      "optimalTemperatureMin": 1,
+      "optimalTemperatureMax": 23,
       "energyConsumption": {
         "current": 320,
         "unit": "watts",
         "average": 310
       },
+      "notes": "Installed on 01/10/2023",
+      "status": "active",
+      "isPoweredOn": true,
+      "installationDate": "2025-05-21",
       "ownerId": 1,
       "ownerType": "user",
       "ownershipType": "owned",
-      "rentalInfo": null
+      "id": "1"
     },
     {
       "id": "2",
@@ -183,7 +181,7 @@
     {
       "id": "14",
       "equipmentId": 2,
-      "temperature": -3.0,
+      "temperature": -3,
       "timestamp": "2023-04-20T14:00:00",
       "status": "normal"
     },
@@ -246,7 +244,7 @@
     {
       "id": "14",
       "equipmentId": 2,
-      "temperature": -3.0,
+      "temperature": -3,
       "timestamp": "2023-04-20T14:00:00",
       "status": "normal"
     },
@@ -364,7 +362,7 @@
       "equipmentId": 2,
       "date": "2023-04-16",
       "averageTemperature": -3.2,
-      "minTemperature": -4.0,
+      "minTemperature": -4,
       "maxTemperature": -2.4
     },
     {
@@ -420,7 +418,7 @@
       "equipmentId": 2,
       "date": "2023-04-16",
       "averageTemperature": -3.2,
-      "minTemperature": -4.0,
+      "minTemperature": -4,
       "maxTemperature": -2.4
     },
     {
@@ -537,11 +535,37 @@
       "status": "pending",
       "priority": "high",
       "userId": 1,
+      "companyId": null,
       "equipmentId": 1,
       "technicianId": null,
-      "scheduledDate": null,
+      "serviceType": "diagnostic",
+      "urgency": "high",
+      "asap": false,
+      "timeSlot": "08:00 - 10:00",
+      "serviceAddress": "Warehouse #3, Sector A",
+      "scheduledDate": "2023-04-18T08:00:00",
       "completionDate": null,
       "resolution": null
+    },
+    {
+      "orderNumber": "",
+      "description": "no",
+      "requestTime": null,
+      "status": "pending",
+      "priority": "normal",
+      "userId": null,
+      "companyId": null,
+      "equipmentId": "2",
+      "technicianId": null,
+      "serviceType": "repair",
+      "urgency": "normal",
+      "asap": true,
+      "timeSlot": "",
+      "serviceAddress": "",
+      "scheduledDate": null,
+      "completionDate": null,
+      "resolution": null,
+      "id": "YJNQ9_C"
     }
   ],
   "maintenance": [
