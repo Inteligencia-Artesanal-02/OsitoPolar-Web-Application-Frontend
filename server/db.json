@@ -74,16 +74,13 @@
   ],
   "equipment": [
     {
-      "id": "1",
       "name": "Industrial Freezer XK-400",
       "type": "freezer",
-      "cost": 5000,
-      "technicalDetails": "Minimum temperature -20°C, capacity 400L",
       "serialNumber": "XK400-12345",
       "code": "CONG-001",
-      "status": "active",
-      "isPoweredOn": true,
-      "notes": "Installed on 01/10/2023",
+      "model": "XK-400",
+      "manufacturer": "CoolTech",
+      "technicalDetails": "Minimum temperature -20°C, capacity 400L",
       "location": {
         "name": "Main warehouse",
         "address": "Av. Principal 123, Lima",
@@ -92,22 +89,23 @@
           "lng": -77.042793
         }
       },
-      "model": "XK-400",
-      "manufacturer": "CoolTech",
-      "installationDate": "2023-01-10",
       "currentTemperature": 22.5,
-      "setTemperature": 16.5,
-      "optimalTemperatureMin": 18,
-      "optimalTemperatureMax": 25,
+      "setTemperature": 26,
+      "optimalTemperatureMin": 1,
+      "optimalTemperatureMax": 23,
       "energyConsumption": {
         "current": 320,
         "unit": "watts",
         "average": 310
       },
+      "notes": "Installed on 01/10/2023",
+      "status": "active",
+      "isPoweredOn": true,
+      "installationDate": "2025-05-21",
       "ownerId": 1,
       "ownerType": "user",
       "ownershipType": "owned",
-      "rentalInfo": null
+      "id": "1"
     },
     {
       "id": "2",
@@ -132,7 +130,7 @@
       "manufacturer": "FrigoTech",
       "installationDate": "2023-02-15",
       "currentTemperature": -2.5,
-      "setTemperature": -1,
+      "setTemperature": -5,
       "optimalTemperatureMin": -5,
       "optimalTemperatureMax": 0,
       "energyConsumption": {
@@ -149,6 +147,108 @@
         "monthlyFee": 350,
         "providerId": 3
       }
+    },
+    {
+      "name": "Freeeee",
+      "type": "freezer",
+      "serialNumber": "EXLRG",
+      "code": "2222929",
+      "model": "Endd",
+      "manufacturer": "d",
+      "technicalDetails": "NINGUNO",
+      "location": {
+        "name": "CASA",
+        "address": "SMP",
+        "coordinates": {
+          "lat": -12.046374,
+          "lng": -77.042793
+        }
+      },
+      "currentTemperature": 22,
+      "setTemperature": 23,
+      "optimalTemperatureMin": 18,
+      "optimalTemperatureMax": 25,
+      "energyConsumption": {
+        "current": 0,
+        "unit": "watts",
+        "average": 0
+      },
+      "notes": "NAADA",
+      "status": "active",
+      "isPoweredOn": true,
+      "installationDate": "2025-05-26",
+      "ownerId": 1,
+      "ownerType": "user",
+      "ownershipType": "owned",
+      "id": "FCQNyTu"
+    },
+    {
+      "name": "Alfredito",
+      "type": "freezer",
+      "serialNumber": "2323",
+      "code": "HH0020",
+      "model": "adadd",
+      "manufacturer": "ddd",
+      "technicalDetails": "",
+      "location": {
+        "name": "GATO",
+        "address": "AV PERU",
+        "coordinates": {
+          "lat": -12.046374,
+          "lng": -77.042793
+        }
+      },
+      "currentTemperature": 22,
+      "setTemperature": 22,
+      "optimalTemperatureMin": 18,
+      "optimalTemperatureMax": 25,
+      "energyConsumption": {
+        "current": 0,
+        "unit": "watts",
+        "average": 0
+      },
+      "notes": "",
+      "status": "active",
+      "isPoweredOn": true,
+      "installationDate": "2025-05-27",
+      "ownerId": 1,
+      "ownerType": "user",
+      "ownershipType": "owned",
+      "id": "CAlwSf_"
+    },
+    {
+      "name": "NEW",
+      "type": "freezer",
+      "serialNumber": "DD",
+      "code": "DDD333",
+      "model": "DDDDD",
+      "manufacturer": "D",
+      "technicalDetails": "",
+      "location": {
+        "name": "3",
+        "address": "R",
+        "coordinates": {
+          "lat": -12.046374,
+          "lng": -77.042793
+        }
+      },
+      "currentTemperature": 22,
+      "setTemperature": 22,
+      "optimalTemperatureMin": 18,
+      "optimalTemperatureMax": 25,
+      "energyConsumption": {
+        "current": 0,
+        "unit": "watts",
+        "average": 0
+      },
+      "notes": "",
+      "status": "active",
+      "isPoweredOn": true,
+      "installationDate": "2025-05-27",
+      "ownerId": 1,
+      "ownerType": "user",
+      "ownershipType": "owned",
+      "id": "DRQ1TL3"
     }
   ],
   "temperatureReadings": [
@@ -537,9 +637,15 @@
       "status": "pending",
       "priority": "high",
       "userId": 1,
+      "companyId": null,
       "equipmentId": 1,
       "technicianId": null,
-      "scheduledDate": null,
+      "serviceType": "diagnostic",
+      "urgency": "high",
+      "asap": false,
+      "timeSlot": "08:00 - 10:00",
+      "serviceAddress": "Warehouse #3, Sector A",
+      "scheduledDate": "2023-04-18T08:00:00",
       "completionDate": null,
       "resolution": null
     }
