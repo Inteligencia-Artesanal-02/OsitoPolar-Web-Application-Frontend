@@ -1,7 +1,7 @@
 <script>
-import { ServiceRequestService } from "../services/service-request.service.ts";
+import { ServiceRequestService } from "../services/service-request.service.js";
 import { EquipmentService } from "../../equipment/services/equipment.service.js";
-import ServiceRequestDetailComponent from "../components/service-request/service-request-detail-component.vue";
+import ServiceRequestDetailComponent from "../components/service-request/service-request-detail.component.vue";
 
 export default {
   name: "service-request-list",
